@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/components/Typography/index.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;iDAAA,O","sourcesContent":["export { default } from './Typography';"],"file":"index.js"}
