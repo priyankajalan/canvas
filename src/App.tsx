@@ -1,10 +1,12 @@
 import React from 'react';
-import TypographyPage from './docs/pages/Typography';
+// import TypographyPage from './docs/pages/Typography';
+import ButtonPage from './docs/pages/Button';
+// import IconPage from './docs/pages/Icon';
 
 function App() {
   return (
-    <div className="App">
-      <TypographyPage />
+    <div style={{ width: '70%', margin: 'auto', padding: '3rem 0' }}>
+      <ButtonPage />
     </div>
   );
 }
