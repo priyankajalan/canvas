@@ -1,5 +1,5 @@
 {
-  "name": "canvas",
+  "name": "wikiance-canvas",
   "license": "(ISC OR GPL-3.0)",
   "version": "0.1.0",
   "private": false,
@@ -39,9 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "publishConfig": {
-    "access": "restricted"
   },
   "peerDependencies": {
     "react": ">=16.0.0"
