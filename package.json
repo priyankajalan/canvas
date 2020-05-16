@@ -18,10 +18,8 @@
     "build:types": "tsc -p tsconfig.gen-dts.json",
     "clean": "rimraf dist",
     "develop": "yarn build:types && yarn build:babel:esm --skip-initial-build --watch --verbose",
-    "build:dist": "tsc --exclude src/docs",
-    "build:docs": "react-scripts build",
     "start": "react-scripts start",
-    "build:dev": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
