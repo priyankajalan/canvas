@@ -10,7 +10,7 @@
     "styled-components": "^5.1.0"
   },
   "scripts": {
-    "build:lib": "yarn build:babel && yarn build:types && node ./scripts/copyTS.js",
+    "build:lib": "yarn build:babel && yarn build:types && node ./scripts-lib/copyTS.js",
     "build:babel": "concurrently \"yarn build:babel:esm && yarn build:babel:umd\" \"yarn build:babel:cjs\"",
     "build:babel:cjs": "BABEL_ENV=cjs babel --source-maps --extensions \".js,.ts,.tsx\" src --out-dir dist/js --presets=@babel/env",
     "build:babel:esm": "BABEL_ENV=esm babel --source-maps --extensions \".js,.ts,.tsx\" src --out-dir dist/esm",
